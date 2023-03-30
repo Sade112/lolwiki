@@ -1,0 +1,160 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
+  color: #e7e7e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(https://r4.wallpaperflare.com/wallpaper/12/107/645/league-of-legends-riot-games-yone-league-of-legends-hd-wallpaper-98866d781010acc8b07c812ed8d294ba.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.726);
+  z-index: -1;
+}
+
+
+.App {
+  justify-content: center;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.TitleSection {
+  background-color: #2c2c2c8e;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.TitleSection h1{
+  padding-right: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 72px;
+  letter-spacing: 5px;
+  font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg");
+
+}
+.TitleSection input {
+  width: 300px;
+  height: 60px;
+  border: none;
+  font-size: 15px;
+  background-color: #00000000;
+}
+
+.TitleSection ::placeholder{
+  color: #e7e7e6;
+  font-size: 20px;
+  align-items: center;
+  font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg");
+}
+
+.TitleSection img{
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  padding: 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  list-style: none;
+  padding: 40px;
+  height: 400px;
+  width: 200px;
+  background-color: #9e0b0f;
+  color: #e7e7e6;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.10);
+}
+
+.textInfo{
+  padding-top: 250px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  font-weight: lighter;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.card-image {
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #d92323;
+  color: #e7e7e6;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+#champs {
+  padding-inline-start: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
